@@ -9,6 +9,7 @@
 body {
 	text-align: center;
 	background-image: url(./fon.jpg);
+	color: white;
 
 }
 
@@ -31,7 +32,7 @@ main {
 
 .btn {
 	background-color: rgb(136, 255, 0);
-	color: rgb(0, 0, 0);
+	color: rgb(39, 38, 0);
 	margin: 30px auto;
 	padding: 8px;
 	width: 250px;
@@ -42,4 +43,23 @@ main {
 
 .btn:hover {
 	scale: 1.1;
+	transition: 0.2s;
+}
+
+.game-header {
+	display: flex;
+	align-items: center;
+}
+
+.reset {
+	width: 150px;
+}
+
+.lvl {
+	flex-grow: 1;
+	text-align: left;
+}
+
+.null {
+	padding-top: 0;
 }
