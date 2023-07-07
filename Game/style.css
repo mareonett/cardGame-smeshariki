@@ -8,8 +8,8 @@
 
 body {
 	text-align: center;
-	background-image: url(./fon.jpg);
-	color: white;
+	background-image: url(./img/fon2.png);
+	color: rgb(255, 251, 0);
 
 }
 
@@ -62,4 +62,25 @@ main {
 
 .null {
 	padding-top: 0;
+}
+
+.game-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+.card {
+	width: 200px;
+	height: 300px;
+	border-radius: 30px;
+	background-size: cover;
+	background-position: center;
+	background-color: white;
+}
+
+.rotate {
+	transform: perspective(200px)rotateY(180deg);
+	transition: 0.5s;
 }
