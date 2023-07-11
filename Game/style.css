@@ -78,9 +78,10 @@ main {
 	background-size: cover;
 	background-position: center;
 	background-color: white;
+	transition: 0.5s;
 }
 
 .rotate {
-	transform: perspective(200px)rotateY(180deg);
+	transform: perspective(210px)rotateY(180deg);
 	transition: 0.5s;
 }
